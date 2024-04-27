@@ -4,6 +4,26 @@
 
 header, footer {
   background-color: #1f2937;
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.navContainer {
+  display: flex;
+  flex-direction: row;
+  outline: 1px solid red;
+}
+
+.logoText {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
 }
 
 h1 {
