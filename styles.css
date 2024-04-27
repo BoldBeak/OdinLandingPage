@@ -12,6 +12,7 @@ header, footer {
 header {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 }
 
 .navContainer, .hero {
@@ -20,6 +21,7 @@ header {
   justify-content: space-around;
   align-items: center;
 }
+
 
 .logoText {
   font-size: 24px;
@@ -34,6 +36,20 @@ nav {
   gap: 40px;
 }
 
+nav>a {
+  color: #E5E7EB;
+  text-decoration: none;
+}
+
+.heroText {
+  width: 40%;
+  height: auto;
+}
+
+h1, .heroPara, .heroButton {
+  margin: 0;
+}
+
 h1 {
   font-size: 48px;
   font-weight: extra-bold;
@@ -43,4 +59,9 @@ h1 {
 .heroPara {
   font-size: 18px;
   color: #E5E7EB;
+}
+
+.heroButton {
+  background-color: #3882F6;
+  color: #f9faf8;
 }
