@@ -31,7 +31,11 @@ header {
   outline: 1px solid red;
 }
 
-
+.hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 .logoText {
   font-size: 24px;
   color: #f9faf8;
@@ -77,4 +81,11 @@ h1 {
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 8px;
+}
+
+.heroImageContainer {
+  height: 280px;
+  width: 50%;
+  background-color: grey;
+  text-align: center;
 }
