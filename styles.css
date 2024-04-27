@@ -27,6 +27,13 @@ header {
   font-weight: bold;
 }
 
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 40px;
+}
+
 h1 {
   font-size: 48px;
   font-weight: extra-bold;
