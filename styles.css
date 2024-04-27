@@ -1,0 +1,18 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+header, footer {
+  background-color: #1f2937;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+}
+
+.heroPara {
+  font-size: 18px;
+  color: #E5E7EB;
+}
