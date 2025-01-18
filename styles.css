@@ -100,7 +100,14 @@ h1 {
   justify-content: center;
 }
 
-/* TEMPORARY STYLING FOR CLARITY */
 .section1ImgContainer {
-  border: 1px dashed red;
+  display: flex;
+  flex-direction: row;
+}
+
+.figImgPlaceholder {
+  height: 100px;
+  width: 100px;
+  border: 2px solid #3882F6;
+  border-radius: 10px;
 }
