@@ -91,7 +91,8 @@ h1 {
   text-align: center;
 }
 
-.section2Header {
+/* Begin Section1 styling */
+.section1Header {
   font-size: 36px;
   font-weight: extra-bold;
   color: #1F2937;
@@ -99,3 +100,7 @@ h1 {
   justify-content: center;
 }
 
+/* TEMPORARY STYLING FOR CLARITY */
+.section1ImgContainer {
+  border: 1px dashed red;
+}
