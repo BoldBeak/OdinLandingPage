@@ -19,7 +19,7 @@ header {
   display: block;
 }
 
-.navContainer, .hero {
+.navContainer, .hero, .section1ImgContainer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -100,10 +100,12 @@ h1 {
   justify-content: center;
 }
 
+/*
 .section1ImgContainer {
   display: flex;
   flex-direction: row;
 }
+*/
 
 .figImgPlaceholder {
   height: 100px;
